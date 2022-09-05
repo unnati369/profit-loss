@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+#submit-btn{
+    display: block;
+    padding-left: 3rem;
+}
