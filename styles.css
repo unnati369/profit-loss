@@ -1,12 +1,54 @@
-body{
-    text-align: center;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecfeff;
 }
 
-label{
+label {
     display: block;
     padding-bottom: 1rem;
 }
-#submit-btn{
-    display: block;
-    padding-left: 3rem;
+
+.stocks-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img>img {
+    width: 28rem;
+    height: 27rem;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+input{
+    margin-top: -15px;
+}
+
+
+#submit-btn {
+    background-color: #6ee7b7;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 4px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fafafa;
+}
+
+header {
+    background-color: black;
+}
+
+#output-box{
+    text-align: end;
+    width: 89vw;
+    margin-top: -80px;
 }

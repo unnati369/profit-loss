@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mark-14 Stocks</title>
+    <title>Stocks | Profit and Loss</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <h1>Mark-14 Stocks</h1>
+    <header>
+        <h1>Profit and Loss</h1>
+    </header>
 
     <main>
-        <label for="initial-price">Initial Price
-        <input type="text" id="initial-price" placeholder="Enter Initial Price Here" /> </label>
-        <label for="stocks-quantity" >Quantity Of Stocks
-        <input type="text" id="stocks-quantity" placeholder="Enter the number of Stocks bought" /> </label>
-        <label for="current-price">Current Price
-        <input type="text" id="current-price"  placeholder="Enter the current price of the Stocks" /> </label>
+        <div class="stocks-container">
+            <div class="img">
+                <img src="./stocks.svg" alt="">
+            </div>
+            <div class="section-container">
 
-        <button id="submit-btn" >Tell Me!!</button>
-        <div id="output-box"  ></div>
+                <label for="initial-price">Initial Price: </label>
+                <input type="text" id="initial-price" placeholder="Enter Initial Price Here" />
+
+                <label for="stocks-quantity">Quantity Of Stocks:</label>
+                <input type="text" id="stocks-quantity" placeholder="Enter the number of Stocks bought" />
+
+
+                <label for="current-price">Current Price: </label>
+                <input type="text" id="current-price" placeholder="Enter the current price of the Stocks" />
+
+
+
+                <button id="submit-btn">Tell Me!!</button>
+            </div>
+        </div>
+        <div id="output-box"></div>
         <script src="app.js"></script>
+
     </main>
 </body>
+
 </html>
