@@ -20,7 +20,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
         showOutput('The loss is:' + loss + 'and the percent is' + lossPercentage + '%');
     } else if (current > initial) {
         var profit = (current - initial) * quantity;
-        var profitPercentage = (profit / initial) * 100;
+       var profitPercentage = ((current - initial) / initial)*100
         showOutput('The profit is:' + profit + 'and the percent is' + profitPercentage + '%');
     } else {
         showOutput("No Pain No Gain and No Gain No Pain");
